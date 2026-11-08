@@ -98,7 +98,7 @@ int main(void)
   RS485_RxMode();
   HAL_Delay(1000);
 
-  cmd.id = 0;
+  cmd.id = 3;//change id here
   cmd.mode = 0;
   cmd.K_P = 0;
   cmd.K_W = 0;
